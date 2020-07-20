@@ -26,67 +26,67 @@ class Commander {
             'endpoint' => '/auth.test',
             'token'    => true
         ],
-        'channels.archive' => [
+        'conversations.archive' => [
             'token'    => true,
-            'endpoint' => '/channels.archive'
+            'endpoint' => '/conversations.archive'
         ],
-        'channels.create' => [
+        'conversations.create' => [
             'token'    => true,
-            'endpoint' => '/channels.create'
+            'endpoint' => '/conversations.create'
         ],
-        'channels.history' => [
+        'conversations.history' => [
             'token'    => true,
-            'endpoint' => '/channels.history'
+            'endpoint' => '/conversations.history'
         ],
-        'channels.info' => [
+        'conversations.info' => [
             'token'    => true,
-            'endpoint' => '/channels.info'
+            'endpoint' => '/conversations.info'
         ],
-        'channels.invite' => [
+        'conversations.invite' => [
             'token'    => true,
-            'endpoint' => '/channels.invite'
+            'endpoint' => '/conversations.invite'
         ],
-        'channels.join' => [
+        'conversations.join' => [
             'token'    => true,
-            'endpoint' => '/channels.join'
+            'endpoint' => '/conversations.join'
         ],
-        'channels.kick' => [
+        'conversations.kick' => [
             'token'    => true,
-            'endpoint' => '/channels.kick'
+            'endpoint' => '/conversations.kick'
         ],
-        'channels.leave' => [
+        'conversations.leave' => [
             'token'    => true,
-            'endpoint' => '/channels.leave'
+            'endpoint' => '/conversations.leave'
         ],
-        'channels.list' => [
+        'conversations.list' => [
             'token'    => true,
-            'endpoint' => '/channels.list'
+            'endpoint' => '/conversations.list'
         ],
-        'channels.mark' => [
+        'conversations.mark' => [
             'token'    => true,
-            'endpoint' => '/channels.mark'
+            'endpoint' => '/conversations.mark'
         ],
-        'channels.rename' => [
+        'conversations.rename' => [
             'token'    => true,
-            'endpoint' => '/channels.rename'
+            'endpoint' => '/conversations.rename'
         ],
-        'channels.setPurpose' => [
+        'conversations.setPurpose' => [
             'token'    => true,
-            'endpoint' => '/channels.setPurpose',
+            'endpoint' => '/conversations.setPurpose',
             'format'   => [
                 'purpose'
             ]
         ],
-        'channels.setTopic' => [
+        'conversations.setTopic' => [
             'token'    => true,
-            'endpoint' => '/channels.setTopic',
+            'endpoint' => '/conversations.setTopic',
             'format'   => [
                 'topic'
             ]
         ],
-        'channels.unarchive' => [
+        'conversations.unarchive' => [
             'token'    => true,
-            'endpoint' => '/channels.unarchive'
+            'endpoint' => '/conversations.unarchive'
         ],
         'chat.delete' => [
             'token'    => true,
