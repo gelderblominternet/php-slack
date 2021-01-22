@@ -293,6 +293,10 @@ class Commander {
             'token'    => false,
             'endpoint' => '/oauth.access'
         ],
+        'oauth.v2.access' => [
+            'token'    => false,
+            'endpoint' => '/oauth.v2.access'
+        ],
         'pins.add' => [
             'token'    => true,
             'endpoint' => '/pins.add'
